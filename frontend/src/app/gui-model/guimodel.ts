@@ -129,7 +129,7 @@ export class GuiModel {
                             "type": "button",
                             "name": { default: "Stundenerfassung" },
                             "icon": "fa-solid fa-business-time",
-                            "color": "red",
+                            "color": "blue",
                             "page": "modulePage",
                             "width": 2,
                            },
