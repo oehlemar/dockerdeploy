@@ -42,7 +42,7 @@ pipeline {
                 sh 'echo deploy'
             }
         }
-        stage('Setup Git Config') {
+/*        stage('Setup Git Config') {
             steps {
                 script {
                     // Set user name and email for git config
@@ -53,7 +53,7 @@ pipeline {
                 }
             }
         }
-/*         stage('Git Operations') {
+         stage('Git Operations') {
             steps {
                 script {
                     // Add all changes to staging area
